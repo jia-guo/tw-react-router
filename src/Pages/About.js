@@ -1,13 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { withRouter } from 'react-router-dom';
 
 export default function About({ match }) {
-  // const [count, setCount] = useState(0);
   return (
-    <p>
-      {match ? 'Some detailed descriptions on About page ' : 'Brief about '} <DeeplyNestedChild />
-    </p>
+    <div>
+      <p>
+        {match
+          ? 'Some detailed descriptions on the real about page'
+          : 'Brief version on every page'}
+      </p>
+      <DeeplyNestedChild />
+    </div>
   );
 }
 
-const DeeplyNestedChild = withRouter(({ location }) => <span>{location.pathname}</span>);
+const DeeplyNestedChild = withRouter(({ location }) => <p>current path: {location.pathname}</p>);

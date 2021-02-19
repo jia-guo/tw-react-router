@@ -13,7 +13,7 @@ export default function App() {
         <Link to='/login'>Login</Link>
         <Link to='/sth'>Non exist</Link>
       </nav>
-      <h3>Router Demo</h3>
+      <h1>Router Demo</h1>
       <Route path='/about' children={About} />
       <Switch>
         <Route path='/' exact component={HomePage} />
