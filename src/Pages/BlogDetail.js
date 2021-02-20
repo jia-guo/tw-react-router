@@ -1,5 +1,6 @@
 import React from 'react';
-import { useLocation, useHistory, useParams, useRouteMatch } from 'react-router-dom';
+// import { useLocation, useHistory, useParams, useRouteMatch } from 'react-router-dom';
+import { useLocation, useHistory, useParams, useRouteMatch } from '../tw-react-router';
 
 export default function BlogDetailPage(props) {
   return (

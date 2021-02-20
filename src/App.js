@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
+// import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Link, Switch, Route } from './tw-react-router';
 import { HomePage, About, UserPage, LoginPage, BlogPage, BlogDetailPage } from './Pages';
 import './styles.css';
 
