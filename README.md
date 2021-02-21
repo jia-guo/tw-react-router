@@ -1,12 +1,3 @@
-# Base case
+# Tneey wneey react router
 
-This base case project uses all the most common apis of react-router-dom (v5), including:
-
-- BrowserRouter, Link, Switch, Route, Redirect
-- component, render, and children props of Route
-- withRouter
-- hooks: useLocation, useHistory, useParams, useRouteMatch
-
-The project is scaffolded with create-react-app. You can run `npm i` then `npm start` get it up and running. Just some very simple pages illustrating the basic usage of router apis.
-
-We will write a teeny-weeny version of react-router-dom to realize the same functionalities.
+Start from the base case, we now change all the imports of `react-router-dom` to `tw-react-router` in our own src folder. All the implemenations are based on the original source code but are vastely simplified. It is done so to allow everyone to get the gist of how this pillar library works without spending a lot of time. You can also check at this [step-by-step guide with mindmap and illustrations](https://jia-guo.medium.com/write-a-mini-react-router-dom-v5-336e402fa590).
